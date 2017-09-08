@@ -10,3 +10,4 @@ Python implementation for Machine Learning course by Andrew Ng, Stanford Univers
 <a href="http://nbviewer.jupyter.org/github/paroonk/python-machine-learning/blob/master/Exercise%202/Ex2_Regularized%20Logistic%20Regression.ipynb">Regularized Logistic Regression</a><br/>
 #### Example 3:
 <a href="http://nbviewer.jupyter.org/github/paroonk/python-machine-learning/blob/master/Exercise%203/Ex3_Multi-Class%20Classification.ipynb">Multi-Class Classification</a><br/>
+<a href="http://nbviewer.jupyter.org/github/paroonk/python-machine-learning/blob/master/Exercise%203/Ex3_Neural%20Networks.ipynb">Neural Networks</a><br/>
