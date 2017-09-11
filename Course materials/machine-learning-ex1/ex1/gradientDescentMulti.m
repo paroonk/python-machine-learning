@@ -8,8 +8,7 @@ m = length(y); % number of training examples
 J_history = zeros(num_iters, 1);
 
 for iter = 1:num_iters
-    h = X*theta;
-    theta = theta - ((1/m) * alpha * ((h-y)' * X)');
+
     % ====================== YOUR CODE HERE ======================
     % Instructions: Perform a single gradient step on the parameter vector
     %               theta. 
@@ -17,6 +16,9 @@ for iter = 1:num_iters
     % Hint: While debugging, it can be useful to print out the values
     %       of the cost function (computeCostMulti) and gradient here.
     %
+
+    h = X*theta;
+    theta = theta - ((1/m) * alpha * ((h-y)' * X)');
 
 
 
