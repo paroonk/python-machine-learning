@@ -2,8 +2,7 @@
 Python implementation for Machine Learning course by Andrew Ng, Stanford University, Coursera.org
 
 #### Example 1:
-<a href="http://nbviewer.jupyter.org/github/paroonk/python-machine-learning/blob/master/Exercise%201/Ex1_Linear%20Regression%20%28Single%20variable%29.ipynb">Linear Regression (Single variable)</a><br/>
-<a href="http://nbviewer.jupyter.org/github/paroonk/python-machine-learning/blob/master/Exercise%201/Ex1_Linear%20Regression%20%28Multi%20variable%29.ipynb">Linear Regression (Multi variable)</a><br/>
+<a href="http://nbviewer.jupyter.org/github/paroonk/python-machine-learning/blob/master/Exercise%201/Ex1_Linear%20Regression.ipynb">Linear Regression</a><br/>
 <a href="http://nbviewer.jupyter.org/github/paroonk/python-machine-learning/blob/master/Exercise%201/Ex1_Regularized%20Linear%20Regression.ipynb">Regularized Linear Regression</a><br/>
 #### Example 2:
 <a href="http://nbviewer.jupyter.org/github/paroonk/python-machine-learning/blob/master/Exercise%202/Ex2_Logistic%20Regression.ipynb">Logistic Regression</a><br/>
