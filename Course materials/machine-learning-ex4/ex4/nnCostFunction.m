@@ -80,7 +80,7 @@ a2 = [ones(m, 1) a2];
 z3 = a2*Theta2';
 a3 = sigmoid(z3);
 
-## Calculate regularization
+## Calculate cost regularization
 reg1 = sum(sum(Theta1(1:size(Theta1, 1), 2:size(Theta1, 2)) .^ 2, 1));
 reg2 = sum(sum(Theta2(1:size(Theta2, 1), 2:size(Theta2, 2)) .^ 2, 1));
 reg = lambda/(2*m) * (reg1 + reg2);
@@ -95,7 +95,7 @@ delta3 = a3 - Y;
 # Layer 2
 delta2 = (delta3*Theta2 .* sigmoidGradient([ones(size(z2, 1), 1) z2]))(:, 2:end);
 
-## Calculate regularization
+## Calculate gradient regularization
 reg_grad2 = lambda/m * Theta2(:, 2:end);
 reg_grad1 = lambda/m * Theta1(:, 2:end);
 
