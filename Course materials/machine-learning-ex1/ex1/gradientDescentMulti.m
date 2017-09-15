@@ -20,12 +20,6 @@ for iter = 1:num_iters
     h = X*theta;
     theta = theta - ((1/m) * alpha * ((h-y)' * X)');
 
-
-
-
-
-
-
     % ============================================================
 
     % Save the cost J in every iteration    
